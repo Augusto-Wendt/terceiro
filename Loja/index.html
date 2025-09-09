@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <b><p>Loja de brinquedos, onde gostamos de trazer a felicidade rápida pra você e sua criança.</p><p>Desenvolvido por Augusto Mueller.</p></b><br>   
+    </header>
+    <a href="carrinho.html" target="_blank">Ver Carrinho</a>
+    <a href="cadastro/cadastro.html" target="_blank">Cadastro</a>
+    <a href="login/index.html" target="_blank">Login</a>
+    <a href="sobre a loja/index.html" target="_blank">Sobre a Loja</a>
+    <main>
+        
+        <div class="product">
+        <section class="card">
+          <img src="./img/dinossauro.webp" alt="Dinossauro de brinquedo.">
+          <p>Dinossauro</p>
+          <p>Valor de 20R$</p>
+          <button onclick="addToCart({ id: 1, name: 'Dinossauro', price: 20.00 })">Adicionar ao Carrinho</button>         
+        </section>
+        </div>
+        
+        <div class="product">
+        <section class="card">
+        <img src="./img/arminha de brinquedo.webp" alt="Arminha de Brinquedo">
+          <p>Arminha de Brinquedo</p>
+          <p>Valor de 30R$</p>
+         <button onclick="addToCart({ id: 1, name: 'Arminha de Brinquedo', price: 30.00 })">Adicionar ao Carrinho</button>
+        </section>
+        </div>
+        
+        <div class="product">
+        <section class="card">
+          <img src="./img/brinquedo de soldado.webp" alt="Brinquedo de Soldado">
+          <p>Conjunto de 50 Soldadinhos</p>
+          <p>Valor de 10R$</p>
+         <button onclick="addToCart({ id: 1, name: 'Soldadinhos', price: 10.00 })">Adicionar ao Carrinho</button>
+        </section>
+        </div>
+        
+        <div class="product">
+        <section class="card">
+        <img src="./img/monopoly.jpg" alt="Jogo Monopoly">
+          <p>Monopoly</p>
+          <p>Valor de 150R$</p>
+         <button onclick="addToCart({ id: 1, name: 'Monopoly', price: 150.00 })">Adicionar ao Carrinho</button>
+        </section>
+        </div>
+        
+        <div class="product">
+        <section class="card">
+        <img src="./img/Hot Wheels.png" alt="Carrinho">  
+            <p>Hot Wheels</p>
+          <p>Valor de 5R$</p>
+         <button onclick="addToCart({ id: 1, name: 'Hot Wheels', price: 5.00 })">Adicionar ao Carrinho</button>
+        </section>
+        </div>
+        
+        <div class="product">
+        <section class="card">
+          <img src="./img/power ranger.jpg" alt="MegaZord dos Power Rangers">
+          <p>MegaZord</p>
+          <p>Valor de 20R$</p>
+         <button onclick="addToCart({ id: 1, name: 'MegaZord', price: 20.00 })">Adicionar ao Carrinho</button>
+        </section>
+        </div>
+    
+    </main>
+    <script src="cart.js"></script>
+</body>
+</html>
