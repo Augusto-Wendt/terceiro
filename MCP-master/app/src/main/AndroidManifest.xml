@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assistente de Bebidas Inteligente"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnCenario1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simular: Dia Quente e Refrescante"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnCenario2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simular: Dia Frio e Chuvoso"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnCenario3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simular: Dia Ameno e Doce"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnCenario4SantaCruz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simular: SC do Sul (Inverno - 26/06/2025)"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvRecomendacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sua recomendação aparecerá aqui."
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAlignment="center" />
+
+</LinearLayout>
